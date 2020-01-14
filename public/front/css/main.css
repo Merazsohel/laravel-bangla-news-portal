@@ -1,5 +1,6 @@
-body{
-    font-family: 'Montserrat', sans-serif;
+@import url('https://cdn.rawgit.com/mirazmac/bengali-webfont-cdn/master/solaimanlipi/style.css');
+html,body{
+    font-family: 'SolaimanLipi', serif !important;
 }
 .page-item.active .page-link {
   z-index: 2;
@@ -515,7 +516,6 @@ a.left-topbar-item:hover {
 }
 
 .sub-menu-m a {
-  font-family: Roboto-Regular;
   font-size: 15px;
   color: #17b978;
   line-height: 2.5;
@@ -578,7 +578,6 @@ a.left-topbar-item:hover {
 }
 
 .tab01 .nav-link {
-  font-family: Roboto-Regular;
   font-size: 14px;
   color: #555;
   line-height: 1.7;
@@ -763,7 +762,6 @@ body {
 .breadcrumb-item+.breadcrumb-item::before {
   height: 100%;
   content: "\f105";
-  font-family: FontAwesome;
   font-size: 12px;
   padding-right: 10px;
   padding-left: 12px;
@@ -775,7 +773,6 @@ a.breadcrumb-item:hover {
 }
 
 .pagi-item {
-  font-family: Roboto-Regular;
   font-size: 13px;
   line-height: 1.5;
   color: #808080;
@@ -828,157 +825,138 @@ a.breadcrumb-item:hover {
 .cl18 {color: #2489b0;}
 
 .f1-s-1 {
-  font-family: Roboto-Regular;
   font-size: 14px;
   line-height: 1.7;
 }
 
 .f1-s-2 {
-  font-family: Roboto-Regular;
   font-size: 14px;
   line-height: 1.2;
 }
 
 .f1-s-3 {
-  font-family: Roboto-Regular;
   font-size: 12px;
   line-height: 1.7;
 }
 
 .f1-s-4 {
-  font-family: Roboto-Bold;
   font-size: 12px;
   line-height: 1.7;
 }
 
 .f1-s-5 {
-  font-family: Roboto-Medium;
   font-size: 15px;
   line-height: 1.333333;
 }
 
 .f1-s-6 {
-  font-family: Roboto-Medium;
   font-size: 12px;
   line-height: 1.7;
 }
 
 .f1-s-7 {
-  font-family: Roboto-Medium;
   font-size: 15px;
   line-height: 1.466667;
 }
 
 .f1-s-8 {
-  font-family: Roboto-Medium;
   font-size: 14px;
   line-height: 1.5;
 }
 
 .f1-s-9 {
-  font-family: Roboto-Black;
   font-size: 12px;
   line-height: 1.5;
 }
 
-.f1-s-10 {
-  font-family: Roboto-Bold;
+.f1-s-10{
   font-size: 13px;
   line-height: 1.3;
 }
 
 .f1-s-11 {
-  font-family: Roboto-Regular;
+
   font-size: 14px;
   line-height: 1.8;
 }
 
 .f1-s-12 {
-  font-family: Roboto-Regular;
+
   font-size: 15px;
   line-height: 1.8;
 }
 
 .f1-s-13 {
-  font-family: Roboto-Regular;
+
   font-size: 13px;
   line-height: 1.7;
 }
 
 .f2-s-1 {
-  font-family: Lato-Regular;
   font-size: 14px;
   line-height: 1.7;
 }
 
 .f1-m-1 {
-  font-family: Roboto-Medium;
   font-size: 16px;
   line-height: 1.5;
 }
 
 .f1-m-2 {
-  font-family: Roboto-Medium;
   font-size: 18px;
   line-height: 1.333333;
 }
 
 .f1-m-3 {
-  font-family: Roboto-Regular;
+
   font-size: 20px;
   line-height: 1.25;
 }
 
-.f1-m-4 {
-  font-family: Roboto-Bold;
+.f1-m-4{
   font-size: 16px;
   line-height: 1.5;
 }
 
-.f1-m-5 {
-  font-family: Roboto-Bold;
+.f1-m-5{
   font-size: 24px;
   line-height: 1.3;
 }
 
 .f1-m-6 {
-  font-family: Roboto-Regular;
+
   font-size: 18px;
   line-height: 1.333333;
 }
 
 .f1-m-7 {
-  font-family: Roboto-Bold;
+
   font-size: 20px;
   line-height: 1.3;
 }
 
 .f1-l-1 {
-  font-family: Roboto-Medium;
+
   font-size: 30px;
   line-height: 1.2;
 }
 
 .f1-l-2 {
-  font-family: Roboto-Medium;
   font-size: 22px;
   line-height: 1.272727;
 }
 
 .f1-l-3 {
-  font-family: Roboto-Medium;
   font-size: 30px;
   line-height: 1.3;
 }
 
 .f1-l-4 {
-  font-family: Roboto-Bold;
   font-size: 22px;
   line-height: 1.545454;
 }
 
 .f1-l-5 {
-  font-family: Roboto-Medium;
   font-size: 36px;
   line-height: 1.333333;
 }
@@ -1475,7 +1453,7 @@ a.breadcrumb-item:hover {
 
 .onoffswitch3-inner > span {
     display: block; float: left; position: relative; width: 50%; height: 30px; padding: 0; line-height: 30px;
-    font-size: 14px; color: white; font-family: 'Montserrat', sans-serif; font-weight: bold;
+    font-size: 14px; color: white;
     -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 

@@ -26,7 +26,7 @@
                             </div>
                         @endforeach
                     @else
-                        <div class="alert alert-info">There is no news for this category</div>
+                        <div class="alert alert-info mt-5">দুঃখিত এই ক্যাটাগরির খবর এখনো প্রকাশিত হয়নি</div>
                     @endif
                 </div>
 

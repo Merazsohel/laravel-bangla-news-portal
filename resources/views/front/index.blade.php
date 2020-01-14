@@ -1,4 +1,5 @@
 @extends('front.layouts.app')
+
 @section('content')
     <!-- Feature post -->
     <section class="bg0" >

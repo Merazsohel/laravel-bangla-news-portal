@@ -28,6 +28,8 @@ class BanglaConverter {
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.css" integrity="sha256-T83uxgXXWPZaSIlVc2Y1H6ZSAZVjHyXfX4Y8qof8WKA=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="{{asset('public/front/')}}/css/fonts/font.css">
+    @yield('style')
 </head>
 
 
@@ -189,7 +191,7 @@ class BanglaConverter {
         </div>
 
         <!--  -->
-        <div class="wrap-main-nav">
+        <div class="wrap-main-na">
             <div class="main-nav">
                 <!-- Menu desktop -->
                 <nav class="menu-desktop">
@@ -197,7 +199,7 @@ class BanglaConverter {
                         <img src="{{asset($settings->logo)}}" alt="LOGO">
                     </a>
 
-                    <ul class="main-menu mt-3">
+                    <ul class="main-menu mt-3 d-flex justify-content-between">
 
                         <li>
                             <a href="{{url('category/'.$categoryOne->name)}}"> {{ isset($categoryOne->name) ? $categoryOne->name : 'News'}}</a>
@@ -311,7 +313,7 @@ class BanglaConverter {
                 <div class="col-sm-6 col-lg-4 p-b-20">
                     <div class="size-h-3 flex-s-c">
                         <h5 class="f1-m-7 cl0">
-                            Top News
+                            সর্বশেষঃ
                         </h5>
                     </div>
 
@@ -341,7 +343,7 @@ class BanglaConverter {
                 <div class="col-sm-6 col-lg-4 p-b-20">
                     <div class="size-h-3 flex-s-c">
                         <h5 class="f1-m-7 cl0">
-                            Category
+                            ক্যাটাগরি
                         </h5>
                     </div>
 
