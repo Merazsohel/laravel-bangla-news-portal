@@ -28,7 +28,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        View::composer('front.layouts.app', function ($view) {
+        View::composer('*', function ($view) {
             $latestNews = Post::select('id', 'title','slug')->where('breakingNews', 1)->orderBy('id', 'desc')->get();
             $categoryOne = DB::table('categories')->select('id', 'name')->where('position', 1)->latest()->first();
             $categoryTwo = DB::table('categories')->select('id', 'name')->where('position', 2)->latest()->first();
