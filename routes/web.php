@@ -14,7 +14,7 @@ Route::get('archive-data/{date}','FrontendController@archiveData');
 //Admin Panel
 //Category
 
-Auth::routes(['register' => false, 'login']);
+Auth::routes(['register' => false]);
 
 Route::get('home', 'HomeController@index')->name('home');
 Route::get('create-category','CategoryController@create');
