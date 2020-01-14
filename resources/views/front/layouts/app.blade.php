@@ -15,11 +15,11 @@ class BanglaConverter {
 
 ?>
 
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>{{$settings->site_title}}</title>
-    <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="{{asset($settings->favicon)}}"/>
     <link rel="stylesheet" type="text/css" href="{{asset('public/front')}}/css/bootstrap.min.css">
@@ -191,7 +191,7 @@ class BanglaConverter {
         </div>
 
         <!--  -->
-        <div class="wrap-main-na">
+        <div class="wrap-main-nav">
             <div class="main-nav">
                 <!-- Menu desktop -->
                 <nav class="menu-desktop">
@@ -282,7 +282,7 @@ class BanglaConverter {
 
                     <div>
                         <p class="f1-s-1 cl11 p-b-16">
-                          {!! $settings->about_us !!}
+                            {!! $settings->about_us !!}
 
                         </p>
 
