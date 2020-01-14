@@ -327,7 +327,7 @@ class BanglaConverter {
 
                                 <div class="size-w-5">
                                     <h6 class="p-b-5">
-                                        <a href="#" class="f1-s-5 cl11 hov-cl10 trans-03">
+                                        <a href="{{url('news-details/'.$news->slug)}}" class="f1-s-5 cl11 hov-cl10 trans-03">
                                             {{\Illuminate\Support\Str::limit($news->title,30)}}
                                         </a>
                                     </h6>
